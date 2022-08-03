@@ -1,0 +1,40 @@
+body{
+    text-align: left;
+}
+
+div.pokedexEntry{
+    height: 96 px;
+    border-style: dashed;
+    border-left: 0;
+    border-right: 0;
+    line-height: 96px;
+    background-color: #ffff80;
+    border-width: 1px;
+}
+div.pokedexDiv{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    text-align: left;
+    display: inline;
+    height: 100%;
+}
+p{
+    display: inline;
+    vertical-align: middle;
+    margin: 0%;
+    font-family: pocket_monkregular;
+    font-size: 27px;
+}
+p.type{
+    margin-left: 10px;
+}
+@font-face {
+    font-family: 'pocket_monkregular';
+    src: url('C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff2') format('woff2'),
+         url("C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

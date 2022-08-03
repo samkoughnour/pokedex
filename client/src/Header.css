@@ -1,0 +1,20 @@
+div.Header{
+    background-color: #3c5aa6;
+    text-align: center;
+    display: block;
+}
+h1{
+    
+    font-family: pocket_monkregular;
+    height: 5vw;
+    font-size: 5vw;
+    margin:0px;
+    border: 0px;
+}
+@font-face {
+    font-family: 'pocket_monkregular';
+    src: url('C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff2') format('woff2'),
+         url("C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
