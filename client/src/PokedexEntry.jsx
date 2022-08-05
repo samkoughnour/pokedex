@@ -20,9 +20,7 @@ function PokedexEntry({id , pokemonName}){
                 <p>{currentPokemon?.types.map(({ type })=>{
                     return(type.name + " ")
                 })}</p>
-                <Link to={detailLink}>{currentPokemon?.types.map(({ type })=>{
-                    return(type.name + " ")
-                })}</Link>
+                <Link to={detailLink} state={currentPokemon}>Details</Link>
                 <Outlet />
             </div>
         </div>

@@ -23,8 +23,8 @@ function App() {
       <Header handleChange={handleChange}/>
       <Link to="./Header">Test</Link>
       
-      {pokemon.filter(poke => poke.name.startsWith(searchInput)).map(filteredPokemon=>{
-        return(<PokedexEntry id={filteredPokemon.url.slice(34,filteredPokemon.url.length-1)} pokemonName={filteredPokemon.name} />)
+      {pokemon.filter(poke => poke.name.startsWith(searchInput)).map((filteredPokemon, index)=>{
+        return(<PokedexEntry key={index} id={filteredPokemon.url.slice(34,filteredPokemon.url.length-1)} pokemonName={filteredPokemon.name} />)
       })} 
       <Outlet/>
     </div>

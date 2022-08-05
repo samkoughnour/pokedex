@@ -36,6 +36,7 @@ p{
 p.name{
     margin-right: 10px;
 }
+
 @font-face {
     font-family: 'pocket_monkregular';
     src: url('C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff2') format('woff2'),

@@ -1,6 +1,18 @@
 body{
     text-align: center;
     font-family: pocket_monkregular;
+    display: block;
+}
+
+img.detailPage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    display: block;
+}
+p.details{
+    padding-top: 10px;
+    display: block;
 }
 
 @font-face {
