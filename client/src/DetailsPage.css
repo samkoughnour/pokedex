@@ -17,8 +17,8 @@ p.details{
 
 @font-face {
     font-family: 'pocket_monkregular';
-    src: url('C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff2') format('woff2'),
-         url("C:\Users\IGOR\Documents\Coding\Pokedex\client\src\Pokemon-font\pocketmonk-15ze-webfont.woff") format('woff');
+    src: url('../public/Pokemon-font/pocketmonk-15ze-webfont.woff2') format('woff2'),
+         url("../public/Pokemon-font/pocketmonk-15ze-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
